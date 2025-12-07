@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Products – EagleMMA Styles</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{margin:0;font-family:Arial;background:#141414;color:white;}
+header{background:#000;padding:20px;display:flex;justify-content:space-between;align-items:center;}
+header h1{margin:0;color:#ffce00;}
+nav a{color:#fff;margin:0 15px;text-decoration:none;font-size:18px;}
+
+.container{max-width:1200px;margin:auto;padding:50px 20px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;}
+.card{background:#222;padding:20px;border-radius:12px;text-align:center;}
+.card img{width:100%;border-radius:10px;height:230px;object-fit:cover;}
+.btn{padding:10px 20px;background:#ffce00;color:black;text-decoration:none;border-radius:8px;font-weight:bold;font-size:18px;}
+footer{background:#000;padding:20px;text-align:center;color:#888;margin-top:50px;}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>EagleMMA</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="payment.html">Payment</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h2 style="text-align:center;font-size:40px;">Choose Your Fighting Style</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" />
+      <h3>Kickboxing</h3>
+      <p>Boost speed, stamina and striking accuracy.</p>
+      <a class="btn" href="payment.html">Select</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1621784563227-92f218158c8f" />
+      <h3>Muay Thai</h3>
+      <p>Train with elbows, knees, clinch and powerful kicks.</p>
+      <a class="btn" href="payment.html">Select</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" />
+      <h3>Karate</h3>
+      <p>Traditional discipline with strong defense and counter-strike.</p>
+      <a class="btn" href="payment.html">Select</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7e7ec" />
+      <h3>MMA</h3>
+      <p>Full-contact mixed martial arts training.</p>
+      <a class="btn" href="payment.html">Select</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1574862097183-5ab0bdbff1bf" />
+      <h3>Judo</h3>
+      <p>Throws, takedowns and grappling mastery.</p>
+      <a class="btn" href="payment.html">Select</a>
+    </div>
+
+  </div>
+</div>
+
+<footer>© 2025 EagleMMA</footer>
+</body>
+</html>
